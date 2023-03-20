@@ -1,0 +1,207 @@
+body{
+  margin: 1px;
+  background-image: url(img/descargar.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+p.descripcion{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: xx-large;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(150, 201, 48);
+}
+div.lista{
+  background-color:rgb(150, 201, 48) ;
+  font-size: x-large;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  border-radius: 5px;
+  text-align: left;
+  border: 5px solid rgb(160, 179, 123);
+  padding: 1%;
+}
+h3{
+margin: 0px;
+}
+hr{
+  margin-top: 1%;
+}
+
+h3.tm{
+  background-color: rgb(150, 201, 48);
+  border-radius: 5px;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right:auto ;
+}
+
+div.recursos{
+  width: 90%;
+  height: 285px;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right:auto ;
+  background-color: rgb(150, 201, 48);
+  border-radius: 5px;
+  border: 5px solid rgb(160, 179, 123);
+}
+
+p.inag, p.finit, p.renova{
+  width: 29%;
+}
+
+button{
+  background-color:rgb(150, 201, 48) ;
+  border: 1px solid rgb(160, 179, 123);
+}
+
+p.inag{
+  font-size: larger;
+  float: left;
+  border-radius: 5px;
+  padding: 1%;
+  margin-left: 1.5%;
+  margin-right: 1%;
+  margin-top: 1%;
+  background-image: url(img/sol.jpg);
+  color: white;
+}
+p.finit{
+  font-size: larger;
+  float: left;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  color: white;
+  background-image: url(img/arena.jpg);
+}
+p.renova{
+  font-size: larger;
+  float: left;
+  background-image: url(img/madera.webp);
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  color: white;
+}
+p.sos{
+  font-size: larger;
+  float: left;
+  background-image: url(img/como_afecta_la_sociedad_al_medio_ambiente_1286_orig.jpg);
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  color: white;
+}
+.sus{
+  font-size: larger;
+  float: left;
+  background-image: url(img/1200px-Lowland_rainforest\,_Masoala_National_Park\,_Madagascar_\(4026784053\).jpg);
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+}
+
+div.sust{
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+
+
+h1{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background-color: rgb(150, 201, 48);
+  border: 5px solid white;
+}
+
+div.links{
+ margin-top: 3%;
+}
+
+a.lc1{
+  font-size: xx-large;
+  font-style: italic ;
+  border-radius: 5px;
+  padding: 1%;
+  border: 5px solid rgb(160, 179, 123);
+  background-color: rgb(150, 201, 48);
+  color: rgb(255, 255, 255);
+  width: 300px;
+}
+
+.lc2{
+  font-size: xx-large;
+  font-style: italic ;
+  border-radius: 5px;
+  padding: 1%;
+  border: 5px solid rgb(160, 179, 123);
+  background-color: rgb(150, 201, 48);
+  color: rgb(255, 255, 255);
+  width: 700px;
+  margin: auto;
+}
+
+li{
+  align-items: center;
+}
+
+img.tierra{
+  margin: auto;
+  width: 220px;
+  height: 200px;
+}
+img.capas{
+  width: 302px;
+  height: 200px;
+}
+
+img.capas2{
+  width: 302px;
+  height: 200px;
+}
+
+img.campos{
+  width: 302px;
+  height: 200px;
+}
+
+p.intro1 , p.intro2{
+  font-size: xx-large;
+  font-style: italic ;
+  border-radius: 5px;
+  padding: 1%;
+  border: 5px solid rgb(160, 179, 123);
+  background-color: rgb(150, 201, 48);
+  color: rgb(0, 0, 0);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video{
+  width: 320px;
+
+}
+div.lnk1:hover .ref1::after{
+  content: "Aqui podras obtener informacion sobre los principios basicos de la naturaleza, esto nos sera de utlidad al analizar los procesos de ciclado de la materia, el flujo de energia, la productividad y sustentabilidad de la tierra, asi como su conservacion y homeostasis.A su vez, nos servira tambien para analizar y comprender las causas de la problematica ambiental que actualmente padece la humanidad. De esta forma podremos darnos cuenta de la manera en la que nuestra mera existencia afecta el planeta y como podemos reducir esta problematica tanto a nivel personal como a nivel de comunidad.";
+}
+
+div.lnk2:hover .ref2::after{
+  content: "La informacion aqui mostrada tiene como base el que han hecho las diferentes organizaciones para mejorar el estado del planeta y reducir los daños ocasionados poniendo propuestas y propsitos a los que llegar o al menos poder acercarse.Tambien nos da informacion sobre el desarrollo sostenible y sustentable.";
+  }
+
+div.lista:hover .ref3::before{
+  content: "La Agenda 21 aborda una amplia gama de temas relacionados con el desarrollo sostenible, incluyendo la protección del medio ambiente, el uso sostenible de los recursos naturales, la reducción de la pobreza y la promoción del desarrollo económico y social. El plan incluye recomendaciones para la acción en áreas como la energía, el transporte, la agricultura, la pesca, la gestión de residuos, la salud, la educación y la cultura.Desde su adopción en 1992, la Agenda 21 ha sido objeto de críticas y controversias. Algunos argumentan que es un plan para el control mundial por parte de las Naciones Unidas y otros organismos internacionales, mientras que otros argumentan que es un plan para promover el desarrollo sostenible y mejorar la calidad de vida de las personas en todo el mundo.";
+}
+
